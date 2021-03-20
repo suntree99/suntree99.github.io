@@ -1,0 +1,11 @@
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[alias]
+  s = status
+  a = add .
+  m = commit -m
+  p = push
+  g = log --all --decorate --oneline --graph
+  f = fetch
+  am = commit -am
